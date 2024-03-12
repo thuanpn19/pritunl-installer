@@ -23,3 +23,6 @@ sudo pritunl set app.redirect_server false
 sudo pritunl set app.server_ssl false
 sudo pritunl set app.server_port 80
 ```
+
+# How to use?
+*Run install.sh script and then run patch.sh script*
