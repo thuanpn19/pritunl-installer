@@ -4,24 +4,24 @@
 
 ### Install Pritunl
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/ubuntu-20/install.sh | sudo bash
+curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/focal-1.30/install.sh | sudo bash
 ```
 
 ### Install Patch
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/ubuntu-20/patch.sh | sudo bash
+curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/focal-1.30/patch.sh | sudo bash
 ```
 
 ## For Ubuntu 22
 
 ### Install Pritunl
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/ubuntu-22/install.sh | sudo bash
+curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/jammy-1.30/install.sh | sudo bash
 ```
 
 ### Install Patch
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/ubuntu-22/patch.sh | sudo bash
+curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/jammy-1.30/patch.sh | sudo bash
 ```
 
 # Pritunl Setup
