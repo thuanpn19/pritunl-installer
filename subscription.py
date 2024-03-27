@@ -59,7 +59,7 @@ def update():
                 #
                 # data = response.json()
 
-                css_content = urlopen('https://gist.githubusercontent.com/ongtungduong/4d0d749a9288cc79fd60dbbf777a3faa/raw/pritunl.css').read()
+                css_content = urlopen('https://raw.githubusercontent.com/ongtungduong/pritunl-installer/main/pritunl.css').read()
                 etag = md5(css_content).hexdigest()
 
                 data = {
