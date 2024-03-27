@@ -7,9 +7,9 @@
 curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/focal-1.30/install.sh | sudo bash
 ```
 
-### Install Patch
+### Active
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/focal-1.30/patch.sh | sudo bash
+curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/focal-1.30/active.sh | sudo bash
 ```
 
 ## For Ubuntu 22
@@ -19,9 +19,9 @@ curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/focal-1.30
 curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/jammy-1.30/install.sh | sudo bash
 ```
 
-### Install Patch
+### Active
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/jammy-1.30/patch.sh | sudo bash
+curl https://raw.githubusercontent.com/ongtungduong/pritunl-installer/jammy-1.30/active.sh | sudo bash
 ```
 
 # Pritunl Setup
