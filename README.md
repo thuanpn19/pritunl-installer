@@ -43,10 +43,10 @@ sudo pritunl reset-password
 
 ### Increase Open File Limit
 ```bash
-sudo sh -c 'echo "* hard nofile 64000" >> /etc/security/limits.conf'
-sudo sh -c 'echo "* soft nofile 64000" >> /etc/security/limits.conf'
-sudo sh -c 'echo "root hard nofile 64000" >> /etc/security/limits.conf'
-sudo sh -c 'echo "root soft nofile 64000" >> /etc/security/limits.conf'
+echo "* hard nofile 64000" | sudo tee -a /etc/security/limits.conf
+echo "* soft nofile 64000" | sudo tee -a /etc/security/limits.conf
+echo "root hard nofile 64000" | sudo tee -a /etc/security/limits.conf
+echo "root soft nofile 64000" | sudo tee -a /etc/security/limits.conf
 ```
 
 ### Config for Load Balancing
