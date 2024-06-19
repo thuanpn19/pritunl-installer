@@ -1,45 +1,21 @@
-# How to use?
+## Installation
 
-## For Ubuntu 20
-
-### Install Pritunl
+### Install Pritunl Server
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/focal-1.30/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/main/pritunl-server.sh)
 ```
 
-### Active
+### Upgrade Pritunl
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/focal-1.30/active.sh)
+bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/main/upgrade.sh)
 ```
 
-## For Ubuntu 22
-
-### Install Pritunl
+### Install Pritunl Client
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/jammy-1.30/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/main/pritunl-client.sh)
 ```
 
-### Active
-```bash
-bash <(curl -sSL https://github.com/ongtungduong/pritunl-installer/raw/jammy-1.30/active.sh)
-```
-
-# Pritunl Setup
-
-### Get Pritunl setup-key
-```bash
-sudo pritunl setup-key
-```
-
-### Get Pritunl default-password
-```bash
-sudo pritunl default-password
-```
-
-### Reset administrator password
-```bash
-sudo pritunl reset-password
-```
+## Configuration
 
 ### Increase Open File Limit
 ```bash
@@ -49,7 +25,7 @@ echo "root hard nofile 64000" | sudo tee -a /etc/security/limits.conf
 echo "root soft nofile 64000" | sudo tee -a /etc/security/limits.conf
 ```
 
-### Config for Load Balancing
+### Load Balancing
 ```bash
 sudo pritunl set app.reverse_proxy true
 sudo pritunl set app.redirect_server false
